@@ -2,13 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="cv.css"/>
+    <title>My CV</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./cv.css"/>
+    <link rel="stylesheet" type="text/css" href="./common.css"/>
 </head>
 <body>
     <div class="container">
         <div class="header-cv">
+            <img class="avatar-cv" alt="avatar" src="./avatar.jpg"/>
+            <div class="name-title">
+                <div class="name" id="full_name"></div>
+                <div class="title" id="title"></div>
+            </div>
+            <div class="info-contact" id="info-contact">
+            </div>
+        </div>
+        <div class="body-cv">
+            <div id="about" class="block-item">
+            </div>
+            <div id="education" class="education block-item">
+                <div class="title-block">
+                    EDUCATION
+                </div>
+                <div class="content-block">
+                    <div class="flex content-between">
+                        <span class="font-bold py-6 text-16">Ha Noi University of Industry</span>
+                        <span class="font-bold py-6">2015 - 2019</span>
+                    </div>
+                    <div class="font-bold py-6">Information Technology</div>
+                </div>
+            </div>
+            <div class="education block-item">
+                <div class="title-block">
+                    WORK EXPERIENCES
+                </div>
+                <div class="content-block">
+                    <div class="flex content-between">
+                        <span class="font-bold py-6 text-16">Vistarsoft Global Co., Ltd</span>
+                        <span class="font-bold py-6">10/2019 - 06/2021</span>
+                    </div>
+                    <div class="my-6">Fresher Developer, Junior Developer</div>
+                    <div class="flex-col font-400">
+                        <span>Develop and maintain applications support Japanese traffic using C++, OpenCV, Python, image processing, IoT</span>
+                    </div>
+                </div>
+                <div class="content-block">
+                    <div class="flex content-between">
+                        <span class="font-bold py-6 text-16">TopCV VietNam JSC</span>
+                        <span class="font-bold py-6">06/2021 - Now</span>
+                    </div>
+                    <div class="my-6">Junior Developer, Middle Developer</div>
+                    <div class="flex-col font-400">
+                        <span>Develop and maintain products for candidates, employers, and internal operations system using technologies such as PHP
+Laravel, ReactJS, VueJS, NodeJS, MySQL, MongoDB, Elasticsearch, Kafka, and more.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill block-item">
+                <div class="title-block">
+                    SKILLS
+                </div>
+                <div class="content-block">
+                    <div class="flex items-center">
+                        <div class="font-bold text-16 w-100">Technologies</div>
+                        <div class="ml-24">C++, Python, PHP, Laravel, MySQL, MongoDB, Kafka Streams, Elasticsearch, Microservices, DomainDriven Design (DDD), Redis, Design Patterns, NestJS, ReactJS, VueJS, HTML, CSS, JS,TS, Jquery, Git, Linux, MacOS</div>
+                    </div>
+                    <div class="flex mt-12 items-center">
+                        <div class="font-bold text-16 w-100">Languages</div>
+                        <div class="ml-24">Basic English reading and writing</div>
+                    </div>
+                </div>
+            </div>
+            <div id="projects-block" class="block-item">
+            </div>
         </div>
     </div>
+    <script type="text/javascript"  src="./cv.js"></script>
 </body>
 </html>

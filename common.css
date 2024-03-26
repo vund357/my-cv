@@ -1,0 +1,85 @@
+table {
+    border-radius: 3px;
+    width: 100%;
+}
+table, tr, td {
+    border: 1px solid #979191;
+    border-collapse: collapse;
+}
+td {
+    padding: 8px;
+}
+.w-250 {
+    width: 250px;
+}
+.w-100 {
+    width: 100px;
+}
+.flex {
+    display: flex;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.items-center {
+    align-items: center;
+}
+.content-center {
+    justify-content: center;
+}
+.content-between {
+    justify-content: space-between;
+}
+.font-bold {
+    font-weight: 600;
+}
+.font-400 {
+    font-weight: 400;
+}
+.mx-12 {
+    margin-inside: 12px;
+}
+.my-12 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.mx-6 {
+    margin-inside: 6px;
+}
+.my-6 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.px-12 {
+    padding-inline: 12px;
+}
+.py-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.px-6 {
+    padding-inline: 6px;
+}
+.py-6 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.ml-6 {
+    margin-left: 6px;
+}
+.text-16 {
+    font-size: 16px;
+}
+.text-12 {
+    font-size: 12px;
+}
+.mb-6 {
+    margin-bottom: 6px;
+}
+.ml-24 {
+    margin-left: 24px;
+}
+.mt-12 {
+    margin-top: 12px;
+}
