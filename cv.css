@@ -90,3 +90,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+.btn-download {
+  border-radius: 20px;
+  width: fit-content;
+  padding: 10px 16px;
+  background: #00b14f;
+  margin-top: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+.btn-download:hover {
+  opacity: 0.8;
+}
