@@ -33,7 +33,6 @@ const data = {
       items: [
           'I have more than 4 years of software development experience in Product and OutSource projects.',
           'Currently, I am working at TopCV Vietnam Joint Stock Company with products for candidates and employers.',
-          'OutSource projects develop image processing applications, vehicle recognition, IoT applications, and e-commerce for the Japanese market.',
           'My upcoming goal is to work at professional technology companies. I want to learn more from experienced colleagues, contribute to the company as well as develop myself to become a Senior Developer or Technical Leader.',
       ],
     },
@@ -72,7 +71,7 @@ const data = {
                 },
                 {
                     label: 'Technologies',
-                    text: 'Laravel, VueJS, SCSS, React Native, MySQL, MongoDB, Elasticsearch, Kafka, Design Patterns (Dependency Injection, Repository, Facade, Singleton), Microservices Architecture, Domain-Driven Design',
+                    text: 'Laravel, VueJS, SCSS, React Native, MySQL, MongoDB, Elasticsearch, Kafka, Design Patterns (Decorator, Pineline, Chain of Responsibility, Template Method), Microservices Architecture, Domain-Driven Design',
                 },
             ],
         },
@@ -94,10 +93,7 @@ const data = {
                 },
                 {
                     label: 'Positions',
-                    text: [
-                        'Junior Developer (09/2021 - 04/2022)',
-                        'Middle Developer (04/2022 - 03/2023)',
-                    ],
+                    text: 'Middle Developer',
                 },
                 {
                     label: 'Responsibilities',
@@ -112,7 +108,7 @@ const data = {
                 },
                 {
                     label: 'Technologies',
-                    text: 'Laravel, NestJS, ReactJS, Microservices Architecture, Domain-Driven Design (DDD), Kafka, Design Patterns (Dependency Injection, Repository, Facade, Singleton), Elasticsearch, MySQL, MongoDB',
+                    text: 'Laravel, NestJS, ReactJS, Microservices Architecture, Domain-Driven Design (DDD), Kafka, Design Patterns (Decorator, Pineline, Chain of Responsibility, Template Method), Elasticsearch, MySQL, MongoDB',
                 },
             ],
         },
@@ -134,7 +130,7 @@ const data = {
                 },
                 {
                     label: 'Positions',
-                    text: 'Junior Developer'
+                    text: 'Middle Developer'
                 },
                 {
                     label: 'Responsibilities',
