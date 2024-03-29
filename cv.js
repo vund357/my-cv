@@ -22,18 +22,13 @@ const data = {
             action: "https://linkedin.com/in/vund-dev",
             text: "https://linkedin.com/in/vund-dev",
         },
-        {
-            icon: "fa-brands fa-github",
-            action: "https://github.com/vund-dev",
-            text: "https://github.com/vund-dev",
-        },
     ],
     objectives: {
       title: 'CAREER OBJECTIVES',
       items: [
           'I have more than 4 years of software development experience in Product and OutSource projects.',
           'Currently, I am working at TopCV Vietnam Joint Stock Company with products for candidates and employers.',
-          'My upcoming goal is to work at professional technology companies. I want to learn more from experienced colleagues, contribute to the company as well as develop myself to become a Senior Developer or Technical Leader.',
+          'My upcoming goal is to work at professional technology companies. I want to learn more from experienced colleagues, contribute to the company, as well as develop myself to become a Senior Developer or Technical Leader.',
       ],
     },
     educations: {
@@ -50,7 +45,7 @@ const data = {
                 },
                 {
                     label: 'Description',
-                    text: 'Smart recruitment platform for employers, supporting finding suitable candidates. Apply AI technology to products. Main features such as: Recruitment campaign, Post job ads, Find CV, Recommend CV, Manage CV, Provide paid service packages for employers,...',
+                    text: 'Smart recruitment platform for employers, supporting finding suitable candidates. Applies AI technology to products. Main features such as: Recruitment campaign, Post job ads, Find CV, Recommend CV, Manage CV, Provide paid service packages for employers,...',
                 },
                 {
                     label: 'Team Size',
@@ -63,7 +58,7 @@ const data = {
                 {
                     label: 'Responsibilities',
                     text: [
-                        'Participate in developing features such as Posting job advertisements, Searching CVs, Recommend CV, Managing CVs, including interfaces, APIs, Databases.',
+                        'Participate in developing features such as posting job advertisements, searching CVs, recommending CVs, managing CVs, including interfaces, APIs, and databases',
                         'Optimize queries, refactor code',
                         'Resolve bugs that arise in the production environment',
                         'Join the Agile team in evaluating and contributing ideas to build new features.',
@@ -85,7 +80,7 @@ const data = {
                 },
                 {
                     label: 'Description',
-                    text: 'Products operated internally by the Company. Has main features such as: Workflow, Customer Tracking, Human Resource Management, CRM,...',
+                    text: 'Products operated internally by the company. Has main features such as: Workflow, Customer Tracking, Human Resource Management, CRM,...',
                 },
                 {
                     label: 'Team Size',
@@ -99,10 +94,10 @@ const data = {
                     label: 'Responsibilities',
                     text: [
                         'Participate in building and developing professional features to support sales and customer care staff.',
-                        'Participate in building process systems and managing Workflow processes.',
-                        'Participate in building Microservices about: Accounts, Customers, Human Resources, Workflow,...',
-                        'Participate in building and designing Database for features in the project.',
-                        'Optimize the experience in the system.',
+                        'Participate in building process systems and managing workflow processes.',
+                        'Participate in building microservices about: Accounts, Customers, Human Resources, Workflow,...',
+                        'Participate in building and designing databases for features in the project.',
+                        'Optimize the user experience in the system.',
                         'Join the Agile team in evaluating and contributing ideas to build new features.',
                     ],
                 },
@@ -122,7 +117,7 @@ const data = {
                 },
                 {
                     label: 'Description',
-                    text: 'One of the Company\'s core products with services such as supporting free online CV creation tools, finding jobs for candidates and some other features.',
+                    text: 'One of the company\'s core products with services such as supporting free online CV creation tools, finding jobs for candidates, and some other features.',
                 },
                 {
                     label: 'Team Size',
@@ -135,9 +130,9 @@ const data = {
                 {
                     label: 'Responsibilities',
                     text: [
-                        'Participate in developing cv templates',
-                        'Develop candidate vip feature',
-                        'Optimize and increase candidate experience',
+                        'Participate in developing CV templates.',
+                        'Develop candidate VIP feature.',
+                        'Optimize and enhance candidate experience.',
                     ],
                 },
                 {
@@ -169,8 +164,8 @@ const data = {
                 {
                     label: 'Responsibilities',
                     text: [
-                        'Participate in building and designing Database for features in the project',
-                        'Develop backend and frontend product modules',
+                        'Participate in building and designing the database for features in the project.',
+                        'Develop backend and frontend product modules.',
                     ],
                 },
                 {
@@ -205,11 +200,11 @@ const data = {
                 {
                     label: 'Responsibilities',
                     text: [
-                        'Develop lane recognition service',
-                        'Training model, improving the accuracy of identifying vehicles and license plates',
-                        'Fix errors that occur during actual runtime and optimize performance',
-                        'Develop web service to support remote object location',
-                        'Coordinate with BrSE in Japan when installing experimental products at off-road construction sites',
+                        'Develop lane recognition service.',
+                        'Training model, improving the accuracy of identifying vehicles and license plates.',
+                        'Fix errors that occur during actual runtime and optimize performance.',
+                        'Develop web service to support remote object location.',
+                        'Coordinate with BrSE in Japan when installing experimental products at off-road construction sites.',
                     ],
                 },
                 {
