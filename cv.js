@@ -31,9 +31,9 @@ const data = {
     objectives: {
       title: 'CAREER OBJECTIVES',
       items: [
-          'I have more than 4 years of software development experience in OutSource and Product projects.',
-          'OutSource projects develop image processing applications, vehicle recognition, IoT applications, and e-commerce for the Japanese market.',
+          'I have more than 4 years of software development experience in Product and OutSource projects.',
           'Currently, I am working at TopCV Vietnam Joint Stock Company with products for candidates and employers.',
+          'OutSource projects develop image processing applications, vehicle recognition, IoT applications, and e-commerce for the Japanese market.',
           'My upcoming goal is to work at professional technology companies. I want to learn more from experienced colleagues, contribute to the company as well as develop myself to become a Senior Developer or Technical Leader.',
       ],
     },
@@ -42,80 +42,8 @@ const data = {
     },
     projects: [
         {
-            name: 'Traffic Guide Application',
-            time: '10/2019 - 06/2021',
-            details: [
-                {
-                    label: 'Customer',
-                    text: 'Japan',
-                },
-                {
-                    label: 'Description',
-                    text: 'Solve the problem of traffic guide at road maintenance construction sites',
-                },
-                {
-                    label: 'Team Size',
-                    text: 5,
-                },
-                {
-                    label: 'Positions',
-                    text: [
-                        'Fresher Developer (10/2019 - 01/2020)',
-                        'Junior Developer (01/2020 - 06/2021)'
-                    ],
-                },
-                {
-                    label: 'Responsibilities',
-                    text: [
-                        'Develop lane recognition service',
-                        'Training model, improving the accuracy of identifying vehicles and license plates',
-                        'Fix errors that occur during actual runtime and optimize performance',
-                        'Develop web service to support remote object location',
-                        'Coordinate with BrSE in Japan when installing experimental products at off-road construction sites',
-                    ],
-                },
-                {
-                    label: 'Technologies',
-                    text: 'C++, Python, OpenCV, Yolo, Laravel, HTML, CSS, JQuery',
-                },
-            ],
-        },
-        {
-            name: 'Wedding E-commerce',
-            time: '02/2020 - 06/2021',
-            details: [
-                {
-                    label: 'Customer',
-                    text: 'Japan',
-                },
-                {
-                    label: 'Description',
-                    text: 'Online weddings are becoming more and more popular, celebrating wedding guests is easier with online shopping services according to the couple\'s wishes.',
-                },
-                {
-                    label: 'Team Size',
-                    text: 5,
-                },
-                {
-                    label: 'Positions',
-                    text: 'Junior Developer'
-                },
-                {
-                    label: 'Responsibilities',
-                    text: [
-                        'Participate in building and designing Database for features in the project',
-                        'Develop backend and frontend product modules',
-                    ],
-                },
-                {
-                    label: 'Technologies',
-                    text: 'Laravel, MySQL, HTML, CSS, Jquery',
-                },
-            ],
-        },
-        {
-            name: 'Topcv.vn',
-            time: '06/2021 - 09/2021',
+            name: 'Tuyendung.topcv.vn',
+            time: '03/2023 - now',
             details: [
                 {
                     label: 'Company',
@@ -123,27 +51,28 @@ const data = {
                 },
                 {
                     label: 'Description',
-                    text: 'One of the Company\'s core products with services such as supporting free online CV creation tools, finding jobs for candidates and some other features.',
+                    text: 'Smart recruitment platform for employers, supporting finding suitable candidates. Apply AI technology to products. Main features such as: Recruitment campaign, Post job ads, Find CV, Recommend CV, Manage CV, Provide paid service packages for employers,...',
                 },
                 {
                     label: 'Team Size',
-                    text: 5,
+                    text: 'Agile Team 11',
                 },
                 {
                     label: 'Positions',
-                    text: 'Junior Developer'
+                    text: 'Middle Developer'
                 },
                 {
                     label: 'Responsibilities',
                     text: [
-                        'Participate in developing cv templates',
-                        'Develop candidate vip feature',
-                        'Optimize and increase candidate experience',
+                        'Participate in developing features such as Posting job advertisements, Searching CVs, Recommend CV, Managing CVs, including interfaces, APIs, Databases.',
+                        'Optimize queries, refactor code',
+                        'Resolve bugs that arise in the production environment',
+                        'Join the Agile team in evaluating and contributing ideas to build new features.',
                     ],
                 },
                 {
                     label: 'Technologies',
-                    text: 'Laravel, MySQL, Elasticsearch, HTML, CSS, JQuery,...',
+                    text: 'Laravel, VueJS, SCSS, React Native, MySQL, MongoDB, Elasticsearch, Kafka, Design Patterns (Dependency Injection, Repository, Facade, Singleton), Microservices Architecture, Domain-Driven Design',
                 },
             ],
         },
@@ -183,13 +112,13 @@ const data = {
                 },
                 {
                     label: 'Technologies',
-                    text: 'Laravel, NestJS, ReactJS, Microservices Architecture, Domain-Driven Design (DDD), Kafka, Elasticsearch, MySQL, MongoDB',
+                    text: 'Laravel, NestJS, ReactJS, Microservices Architecture, Domain-Driven Design (DDD), Kafka, Design Patterns (Dependency Injection, Repository, Facade, Singleton), Elasticsearch, MySQL, MongoDB',
                 },
             ],
         },
         {
-            name: 'Tuyendung.topcv.vn',
-            time: '03/2023 - now',
+            name: 'Topcv.vn',
+            time: '06/2021 - 09/2021',
             details: [
                 {
                     label: 'Company',
@@ -197,28 +126,99 @@ const data = {
                 },
                 {
                     label: 'Description',
-                    text: 'Smart recruitment platform for employers, supporting finding suitable candidates. Apply AI technology to products. Main features such as: Recruitment campaign, Post job ads, Find CV, Recommend CV, Manage CV, Provide paid service packages for employers,...',
+                    text: 'One of the Company\'s core products with services such as supporting free online CV creation tools, finding jobs for candidates and some other features.',
                 },
                 {
                     label: 'Team Size',
-                    text: 'Agile Team 11',
+                    text: 5,
                 },
                 {
                     label: 'Positions',
-                    text: 'Middle Developer'
+                    text: 'Junior Developer'
                 },
                 {
                     label: 'Responsibilities',
                     text: [
-                        'Participate in developing features such as Posting job advertisements, Searching CVs, Recommend CV, Managing CVs, including interfaces, APIs, Databases.',
-                        'Optimize queries, refactor code',
-                        'Resolve bugs that arise in the production environment',
-                        'Join the Agile team in evaluating and contributing ideas to build new features.',
+                        'Participate in developing cv templates',
+                        'Develop candidate vip feature',
+                        'Optimize and increase candidate experience',
                     ],
                 },
                 {
                     label: 'Technologies',
-                    text: 'Laravel, VueJS, SCSS, React Native, MySQL, MongoDB, Elasticsearch, Kafka, Microservices Architecture, Domain-Driven Design',
+                    text: 'Laravel, MySQL, Elasticsearch, HTML, CSS, JQuery,...',
+                },
+            ],
+        },
+        {
+            name: 'Wedding E-commerce',
+            time: '02/2020 - 06/2021',
+            details: [
+                {
+                    label: 'Customer',
+                    text: 'Japan',
+                },
+                {
+                    label: 'Description',
+                    text: 'Online weddings are becoming more and more popular, celebrating wedding guests is easier with online shopping services according to the couple\'s wishes.',
+                },
+                {
+                    label: 'Team Size',
+                    text: 5,
+                },
+                {
+                    label: 'Positions',
+                    text: 'Junior Developer'
+                },
+                {
+                    label: 'Responsibilities',
+                    text: [
+                        'Participate in building and designing Database for features in the project',
+                        'Develop backend and frontend product modules',
+                    ],
+                },
+                {
+                    label: 'Technologies',
+                    text: 'Laravel, MySQL, HTML, CSS, Jquery',
+                },
+            ],
+        },
+        {
+            name: 'Traffic Guide Application',
+            time: '10/2019 - 06/2021',
+            details: [
+                {
+                    label: 'Customer',
+                    text: 'Japan',
+                },
+                {
+                    label: 'Description',
+                    text: 'Solve the problem of traffic guide at road maintenance construction sites',
+                },
+                {
+                    label: 'Team Size',
+                    text: 5,
+                },
+                {
+                    label: 'Positions',
+                    text: [
+                        'Fresher Developer (10/2019 - 01/2020)',
+                        'Junior Developer (01/2020 - 06/2021)'
+                    ],
+                },
+                {
+                    label: 'Responsibilities',
+                    text: [
+                        'Develop lane recognition service',
+                        'Training model, improving the accuracy of identifying vehicles and license plates',
+                        'Fix errors that occur during actual runtime and optimize performance',
+                        'Develop web service to support remote object location',
+                        'Coordinate with BrSE in Japan when installing experimental products at off-road construction sites',
+                    ],
+                },
+                {
+                    label: 'Technologies',
+                    text: 'C++, Python, OpenCV, Yolo, Laravel, HTML, CSS, JQuery',
                 },
             ],
         },
