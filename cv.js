@@ -1,11 +1,11 @@
 const data = {
     full_name: "Nguyen Duc Vu",
-    title: "PHP Developer",
+    title: "Backend Developer",
     info_contacts: [
         {
             icon: "fa-solid fa-envelope",
-            action: "mailto:vunguyenbn97@gmail.com",
-            text: "vunguyenbn97@gmail.com",
+            action: "mailto:vund357.work@gmail.com",
+            text: "vund357.work@gmail.com",
         },
         {
             icon: "fa-solid fa-mobile-screen-button",
@@ -14,13 +14,13 @@ const data = {
         },
         {
             icon: "fa-solid fa-location-dot",
-            action: "#",
+            action: "https://maps.app.goo.gl/8BCtdheTLDyAvHg69",
             text: "Ha Noi",
         },
         {
             icon: "fa-brands fa-linkedin",
-            action: "https://linkedin.com/in/vund-dev",
-            text: "https://linkedin.com/in/vund-dev",
+            action: "https://linkedin.com/in/vund305",
+            text: "https://linkedin.com/in/vund305",
         },
     ],
     objectives: {
@@ -35,6 +35,41 @@ const data = {
 
     },
     projects: [
+        {
+            name: 'Logistics Operation System',
+            time: '05/2024 - now',
+            details: [
+                {
+                    label: 'Company',
+                    text: 'Giaohangtietkiem.,JSC',
+                },
+                {
+                    label: 'Description',
+                    text: '',
+                },
+                {
+                    label: 'Team Size',
+                    text: '20',
+                },
+                {
+                    label: 'Positions',
+                    text: 'Middle Backend Developer'
+                },
+                {
+                    label: 'Responsibilities',
+                    text: [
+                        'Participate in developing features such as operation scripts for logistics, API, and database',
+                        'Optimize queries, refactor code',
+                        'Resolve bugs that arise in the production environment',
+                        'Mentor, review and support fresher'
+                    ],
+                },
+                {
+                    label: 'Technologies',
+                    text: 'Spring Boot, Laravel, MySQL, MongoDB, Kafka, Microservices, Domain-Driven Design',
+                },
+            ],
+        },
         {
             name: 'Tuyendung.topcv.vn',
             time: '03/2023 - now',
@@ -58,7 +93,7 @@ const data = {
                 {
                     label: 'Responsibilities',
                     text: [
-                        'Participate in developing features such as posting job advertisements, searching CVs, recommending CVs, managing CVs, including interfaces, APIs, and databases',
+                        'Participate in developing features such as posting job advertisements, searching CVs, recommending CVs, managing CVs, including interfaces, API, and database',
                         'Optimize queries, refactor code',
                         'Resolve bugs that arise in the production environment',
                         'Join the Agile team in evaluating and contributing ideas to build new features.',
@@ -66,7 +101,7 @@ const data = {
                 },
                 {
                     label: 'Technologies',
-                    text: 'Laravel, VueJS, SCSS, React Native, MySQL, MongoDB, Elasticsearch, Kafka, Design Patterns (Decorator, Pineline, Chain of Responsibility, Template Method), Microservices Architecture, Domain-Driven Design',
+                    text: 'Laravel, VueJS, SCSS, React Native, MySQL, MongoDB, Elasticsearch, Kafka, Microservices, Domain Driven Design',
                 },
             ],
         },
@@ -236,7 +271,7 @@ function fillContact() {
     info_contacts.forEach((info) => {
         html += '<div class="info-contact-item">'
         html += `<div class="icon-info"><i class="${info.icon}"></i></div>`
-        html += `<a href="${info.action}">${info.text}</a>`
+        html += `<a target="_blank" href="${info.action}">${info.text}</a>`
         html += '</div>'
     })
     document.getElementById('info-contact').innerHTML = html
