@@ -19,16 +19,16 @@ const data = {
         },
         {
             icon: "fa-brands fa-linkedin",
-            action: "https://linkedin.com/in/vund305",
-            text: "https://linkedin.com/in/vund305",
+            action: "https://linkedin.com/in/vund357",
+            text: "https://linkedin.com/in/vund357",
         },
     ],
     objectives: {
       title: 'CAREER OBJECTIVES',
       items: [
-          'I have more than 4 years of software development experience in Product and OutSource projects.',
-          'Currently, I am working at TopCV Vietnam Joint Stock Company with products for candidates and employers.',
-          'My upcoming goal is to work at professional technology companies. I want to learn more from experienced colleagues, contribute to the company, as well as develop myself to become a Senior Developer or Technical Leader.',
+          'With nearly 5 years of experience in software development, I have been involved in product projects across fields such as Computer Vision, HR Tech, and eLogistics.',
+          'Currently, I am working at Giao Hang Tiet Kiem Joint Stock Company, where I focus on building and optimizing products that support processes in the logistics sector. I am passionate about writing clean, efficient code, optimizing performance, and solving complex technical challenges.',
+          'My goal is to work at a forward-thinking technology company where I can continue to learn from experienced colleagues, contribute to impactful projects, and grow professionally. In the near future, I aim to advance into a Senior Developer or Technical Leader role, where I can drive technical innovation and mentor junior developers to achieve their full potential.',
       ],
     },
     educations: {
@@ -45,7 +45,7 @@ const data = {
                 },
                 {
                     label: 'Description',
-                    text: '',
+                    text: 'This project has significantly enhanced the overall efficiency of logistics operations, reduced delivery times, and improved customer satisfaction by providing accurate tracking information and optimizing the pickup and delivery routes.',
                 },
                 {
                     label: 'Team Size',
@@ -53,7 +53,7 @@ const data = {
                 },
                 {
                     label: 'Positions',
-                    text: 'Middle Backend Developer'
+                    text: 'Backend Developer'
                 },
                 {
                     label: 'Responsibilities',
@@ -88,7 +88,7 @@ const data = {
                 },
                 {
                     label: 'Positions',
-                    text: 'Middle Developer'
+                    text: 'Full-Stack Developer'
                 },
                 {
                     label: 'Responsibilities',
@@ -123,7 +123,7 @@ const data = {
                 },
                 {
                     label: 'Positions',
-                    text: 'Middle Developer',
+                    text: 'Full-Stack Developer',
                 },
                 {
                     label: 'Responsibilities',
@@ -160,7 +160,7 @@ const data = {
                 },
                 {
                     label: 'Positions',
-                    text: 'Middle Developer'
+                    text: 'Full-Stack Developer'
                 },
                 {
                     label: 'Responsibilities',
