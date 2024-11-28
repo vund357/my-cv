@@ -72,7 +72,7 @@ const data = {
         },
         {
             name: 'Tuyendung.topcv.vn',
-            time: '03/2023 - now',
+            time: '03/2023 - 05-2024',
             details: [
                 {
                     label: 'Company',
