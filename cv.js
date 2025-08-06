@@ -26,8 +26,8 @@ const data = {
     objectives: {
       title: 'CAREER OBJECTIVES',
       items: [
-          'With nearly 5 years of experience in software development, I have been involved in product projects across fields such as Computer Vision, HR Tech, and eLogistics.',
-          'Currently, I am working at Giao Hang Tiet Kiem Joint Stock Company, where I focus on building and optimizing products that support processes in the logistics sector. I am passionate about writing clean, efficient code, optimizing performance, and solving complex technical challenges.',
+          'With more than 5 years of experience in software development, I have been involved in product projects across fields such as Computer Vision, HR Tech, and eLogistics.',
+          'Currently, I am working at FPT Software. I am passionate about writing clean, efficient code, optimizing performance, and solving complex technical challenges.',
           'My goal is to work at a forward-thinking technology company where I can continue to learn from experienced colleagues, contribute to impactful projects, and grow professionally. In the near future, I aim to advance into a Senior Developer or Technical Leader role, where I can drive technical innovation and mentor junior developers to achieve their full potential.',
       ],
     },
