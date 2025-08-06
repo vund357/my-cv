@@ -93,6 +93,7 @@ const data = {
                     label: 'Responsibilities',
                     text: [
                         'Participate in developing features such as operation scripts for logistics, API, and database',
+                        'Build base project',
                         'Optimize queries, refactor code',
                         'Resolve bugs that arise in the production environment',
                         'Mentor, review and support fresher'
