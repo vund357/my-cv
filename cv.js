@@ -36,8 +36,42 @@ const data = {
     },
     projects: [
         {
+            name: 'Maritime Transport Operation System',
+            time: '01/2025 - now',
+            details: [
+                {
+                    label: 'Company',
+                    text: 'FPT Software',
+                },
+                {
+                    label: 'Description',
+                    text: 'The project focuses on effectively managing activities such as route planning, vessel tracking, cargo coordination and transportation data processing',
+                },
+                {
+                    label: 'Team Size',
+                    text: '5',
+                },
+                {
+                    label: 'Positions',
+                    text: 'Backend Developer'
+                },
+                {
+                    label: 'Responsibilities',
+                    text: [
+                        'Application monitoring',
+                        'Resolve bugs that arise in the production environment',
+                        'Handle support tickets'
+                    ],
+                },
+                {
+                    label: 'Technologies',
+                    text: 'PHP, Java, MySQL, MSSQL',
+                },
+            ],
+        },
+        {
             name: 'Logistics Operation System',
-            time: '05/2024 - now',
+            time: '05/2024 - 12/2024',
             details: [
                 {
                     label: 'Company',
