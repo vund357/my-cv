@@ -107,7 +107,7 @@ const data = {
         },
         {
             name: 'Tuyendung.topcv.vn',
-            time: '03/2023 - 05-2024',
+            time: '03/2023 - 05/2024',
             details: [
                 {
                     label: 'Company',
