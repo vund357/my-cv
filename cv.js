@@ -26,9 +26,9 @@ const data = {
     objectives: {
       title: 'CAREER OBJECTIVES',
       items: [
-          'With more than 5 years of experience in software development, I have been involved in product projects across fields such as Computer Vision, HR Tech, and eLogistics.',
-          'Currently, I am working at FPT Software. I am passionate about writing clean, efficient code, optimizing performance, and solving complex technical challenges.',
-          'My goal is to work at a forward-thinking technology company where I can continue to learn from experienced colleagues, contribute to impactful projects, and grow professionally. In the near future, I aim to advance into a Senior Developer or Technical Leader role, where I can drive technical innovation and mentor junior developers to achieve their full potential.',
+          'Software Developer with over 5 years of experience involved in product development across domains such as Computer Vision, HR Tech, and eLogistics.',
+          'Currently working at FPT Software. I seek to join a forward-thinking technology company where I can further enhance my technical expertise, optimize system performance, and contribute to high-impact products.',
+          'In the near future, my goal is to grow into a Senior Developer or Technical Leader role, driving technical direction and supporting team success.',
       ],
     },
     educations: {
@@ -65,7 +65,7 @@ const data = {
                 },
                 {
                     label: 'Technologies',
-                    text: 'PHP, Java, MySQL, MSSQL',
+                    text: 'PHP, Java, NodeJS, MongoDB, MySQL, MSSQL',
                 },
             ],
         },
@@ -101,7 +101,7 @@ const data = {
                 },
                 {
                     label: 'Technologies',
-                    text: 'Spring Boot, Laravel, MySQL, MongoDB, Kafka, Microservices, Domain-Driven Design',
+                    text: 'Spring Boot, Laravel, NestJS, MySQL, MongoDB, Kafka, Microservices, Domain-Driven Design',
                 },
             ],
         },
@@ -136,7 +136,7 @@ const data = {
                 },
                 {
                     label: 'Technologies',
-                    text: 'Laravel, VueJS, SCSS, React Native, MySQL, MongoDB, Elasticsearch, Kafka, Microservices, Domain Driven Design',
+                    text: 'Laravel, VueJS, NodeJS, React Native, MySQL, MongoDB, Elasticsearch, Kafka, Microservices, Domain Driven Design',
                 },
             ],
         },
@@ -173,7 +173,7 @@ const data = {
                 },
                 {
                     label: 'Technologies',
-                    text: 'Laravel, NestJS, ReactJS, Microservices Architecture, Domain-Driven Design (DDD), Kafka, Design Patterns (Decorator, Pineline, Chain of Responsibility, Template Method), Elasticsearch, MySQL, MongoDB',
+                    text: 'Laravel, NestJS, ReactJS, Microservices Architecture, Domain-Driven Design (DDD), Kafka, Design Pattern, Elasticsearch, MySQL, MongoDB',
                 },
             ],
         },
@@ -229,7 +229,7 @@ const data = {
                 },
                 {
                     label: 'Positions',
-                    text: 'Junior Developer'
+                    text: 'Developer'
                 },
                 {
                     label: 'Responsibilities',
@@ -262,10 +262,7 @@ const data = {
                 },
                 {
                     label: 'Positions',
-                    text: [
-                        'Fresher Developer (10/2019 - 01/2020)',
-                        'Junior Developer (01/2020 - 06/2021)'
-                    ],
+                    text: 'Developer',
                 },
                 {
                     label: 'Responsibilities',
